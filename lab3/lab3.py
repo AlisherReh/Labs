@@ -1,23 +1,3 @@
-#1
-a = 5
-b = 1
-for i in range(a, b+1):
-    print(i)
-
-#2
-if a<b:
-    for i in range(a, b+1):
-        print(i)
-else:
-    for i in range(a, b-1, -1):
-        print(i)
-
-#3
-
-for i in range(a - ((a + 1) % 2), b - b % 2, -2):
-    print(i)
-
-#4
 sum1 = 0
 sum2 = 0
 n = 5
