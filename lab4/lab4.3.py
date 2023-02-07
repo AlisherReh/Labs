@@ -1,17 +1,5 @@
 s = 'HeLLo World'
 
-class operation:
-    def isupper(self):
-        if('A'<i<'Z'):
-            print('isupper')
-        else:
-            print('no')
-    def islower(self):
-        if('a'<i<'z'):
-            print('islower')
-        else:
-            print('no')
-
 k1 = 0
 k2 = 0
 for i in s:
@@ -20,9 +8,14 @@ for i in s:
     if('a'<i<'z'):
         k2+=1
 if(k1<k2):
-    print(s.lower())
+    if(s.islower()==True):
+        print('Already lower')
+    else:
+        print(s.lower())
 elif(k1>k2):
-    print(s.upper())    
+    if(s.isupper()==True):
+        print('Already upper')
+    else:
+        print(s.upper())   
 
-str = operation()
-str.islower()
+

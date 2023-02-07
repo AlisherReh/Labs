@@ -1,15 +1,11 @@
-s = '45687'
-print(s)
-class operation:
-    def isdigit(self):
-        try:
-            float(s)
-            print('yes')
-        except ValueError:
-            print('no')
+a = input()
+b = input()
+print()
 
-str = operation()
-print()
-print('Is digit?:')
-s.isdigit()
-print()
+while not(a.isdigit() and b.isdigit()):
+    a = input()
+    b = input()
+
+
+sum = int(a) + int(b)
+print(sum)
