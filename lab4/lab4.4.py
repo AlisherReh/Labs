@@ -11,13 +11,5 @@ class operation:
 str = operation()
 print()
 print('Is digit?:')
-str.isdigit()
+s.isdigit()
 print()
-while True:
-    try:
-        a = int(input())
-        b = int(input())
-        sum = a+b
-        print('sum: ', sum)
-    except ValueError:
-        print('Error')
